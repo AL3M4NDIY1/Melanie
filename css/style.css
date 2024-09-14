@@ -97,4 +97,27 @@ body{
     box-shadow: 0 0 10px yellow, 0 0 20px yellow, 0 0 30px yellow; /* Efecto de resplandor amarillo */
   }
   
-  
+  @media screen and (max-width: 390px) {
+    .greetings {
+        font-size: 2rem; /* Ajusta el tamaño de la fuente para pantallas más pequeñas */
+        font-weight: 500;
+        text-align: center;
+        letter-spacing: 0.1rem; /* Ajusta el espaciado entre letras */
+    }
+    .greetings > span {
+        font-size: 2rem; /* Ajusta el tamaño de cada letra */
+    }
+    .description {
+        font-size: 1rem; /* Ajusta el tamaño de la descripción */
+    }
+    .button a {
+        font-size: 0.8rem; /* Ajusta el tamaño del texto del botón */
+    }
+    .button button {
+        padding: 15px 30px; /* Ajusta el relleno del botón */
+        font-size: 1.2rem; /* Ajusta el tamaño de la fuente del botón */
+    }
+  }
+
+/* ... existing code ... */
+
